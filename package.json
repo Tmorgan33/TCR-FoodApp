@@ -1,14 +1,22 @@
 {
-  "name": "fast-food-app-wk7",
+  "name": "food app",
   "version": "1.0.0",
-  "description": "",
-  "main": "db.js",
+  "description": "npmmysql",
+  "main": "ajaxGET.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feevah/Food-App.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "mysql": "^2.17.1"
+  "bugs": {
+    "url": "https://github.com/Feevah/Food-App/issues"
+  },
+  "homepage": "https://github.com/Feevah/Food-App#readme",
+  "dependencienodes": {
+    "mysql": "file:mysql"
   }
 }
